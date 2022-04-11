@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    background: #1e1e1e;
+    font-family: emulogic;
+    font-size: large;
+}
+
+@font-face {
+  font-family: emulogic;
+  src: url(../font/emulogic.ttf)
+}
+
+html, body {
+    overflow-y: hidden;
+  }
+  body {
+    position: relative;
+  }
+
+canvas {
+    background: #000000;
+    cursor: none;
+    display: block;
+    margin: 0 auto;
+    border: #ffffff;
+    border-style: solid;
+    border-width: 0.2vw;
+    border-right-width: 1vw;
+    border-left-width: 1vw;
+    border-top-width: 2vw;
+    border-bottom: #000000;
+}
